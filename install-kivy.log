@@ -1,0 +1,53 @@
+(kivy_venv) $ python -m pip install "kivy[base]" kivy_examples
+
+Collecting kivy_examples
+  Downloading Kivy_examples-2.3.1-py3-none-any.whl.metadata (12 kB)
+Collecting kivy[base]
+  Downloading Kivy-2.3.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (14 kB)
+Collecting Kivy-Garden>=0.1.4 (from kivy[base])
+  Downloading Kivy_Garden-0.1.5-py3-none-any.whl.metadata (159 bytes)
+Collecting docutils (from kivy[base])
+  Downloading docutils-0.22-py3-none-any.whl.metadata (15 kB)
+Collecting pygments (from kivy[base])
+  Downloading pygments-2.19.2-py3-none-any.whl.metadata (2.5 kB)
+Collecting requests (from kivy[base])
+  Downloading requests-2.32.4-py3-none-any.whl.metadata (4.9 kB)
+Collecting filetype (from kivy[base])
+  Downloading filetype-1.2.0-py2.py3-none-any.whl.metadata (6.5 kB)
+Collecting pillow<11,>=9.5.0 (from kivy[base])
+  Downloading pillow-10.4.0-cp312-cp312-manylinux_2_28_x86_64.whl.metadata (9.2 kB)
+Collecting charset_normalizer<4,>=2 (from requests->kivy[base])
+  Downloading charset_normalizer-3.4.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (35 kB)
+Collecting idna<4,>=2.5 (from requests->kivy[base])
+  Downloading idna-3.10-py3-none-any.whl.metadata (10 kB)
+Collecting urllib3<3,>=1.21.1 (from requests->kivy[base])
+  Downloading urllib3-2.5.0-py3-none-any.whl.metadata (6.5 kB)
+Collecting certifi>=2017.4.17 (from requests->kivy[base])
+  Downloading certifi-2025.7.14-py3-none-any.whl.metadata (2.4 kB)
+Downloading Kivy_examples-2.3.1-py3-none-any.whl (10.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.1/10.1 MB 1.2 MB/s eta 0:00:00
+Downloading Kivy_Garden-0.1.5-py3-none-any.whl (4.6 kB)
+Downloading pillow-10.4.0-cp312-cp312-manylinux_2_28_x86_64.whl (4.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.5/4.5 MB 1.2 MB/s eta 0:00:00
+Downloading docutils-0.22-py3-none-any.whl (630 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 630.7/630.7 kB 637.9 kB/s eta 0:00:00
+Downloading filetype-1.2.0-py2.py3-none-any.whl (19 kB)
+Downloading Kivy-2.3.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (23.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 23.1/23.1 MB 1.2 MB/s eta 0:00:00
+Downloading pygments-2.19.2-py3-none-any.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 1.0 MB/s eta 0:00:00
+Downloading requests-2.32.4-py3-none-any.whl (64 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.8/64.8 kB 373.0 kB/s eta 0:00:00
+Downloading certifi-2025.7.14-py3-none-any.whl (162 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 162.7/162.7 kB 613.6 kB/s eta 0:00:00
+Downloading charset_normalizer-3.4.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (148 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 148.6/148.6 kB 557.5 kB/s eta 0:00:00
+Downloading idna-3.10-py3-none-any.whl (70 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 70.4/70.4 kB 351.5 kB/s eta 0:00:00
+Downloading urllib3-2.5.0-py3-none-any.whl (129 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 129.8/129.8 kB 584.5 kB/s eta 0:00:00
+Installing collected packages: filetype, urllib3, pygments, pillow, idna, docutils, charset_normalizer, certifi, requests, Kivy-Garden, kivy_examples, kivy
+Successfully installed Kivy-Garden-0.1.5 certifi-2025.7.14 charset_normalizer-3.4.2 docutils-0.22 filetype-1.2.0 idna-3.10 kivy-2.3.1 kivy_examples-2.3.1 pillow-10.4.0 pygments-2.19.2 requests-2.32.4 urllib3-2.5.0
+
+[notice] A new release of pip is available: 23.3.2 -> 25.2
+[notice] To update, run: pip install --upgrade pip
