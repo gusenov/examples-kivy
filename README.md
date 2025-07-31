@@ -1,2 +1,2 @@
-- [Hello world](Hello_world)
+- [Hello world](Hello_world)  *example of a minimal application*
 - [LoginScreen](LoginScreen)
